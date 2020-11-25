@@ -20,3 +20,6 @@ img, svg{ max-width: 100%; height: auto; }
 .welcome-background{ padding-top: 100px }
 .welcome-read-more-text{ display: none; }
 .welcome-background{ background-color: #f8f9fb; }
+#recent-posts{ padding-top: 100px; }
+#recent-posts{ padding-bottom: 60px; }
+.title-posts{ padding: 60px;}
