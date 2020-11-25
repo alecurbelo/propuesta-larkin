@@ -1,4 +1,20 @@
 img, svg{ max-width: 100%; height: auto; }
+#external-links{ padding-top: 100px; }
+#external-links{ padding-bottom: 60px; }
+.abox-2-holder{
+    background-color: #fff;
+        border: 1px solid #eee;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -o-border-radius: 6px;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 40px;
+    }
 #service{ padding-top: 100px; }
 #service{ padding-bottom: 60px; }
 .welcome-background{ padding-top: 100px }
