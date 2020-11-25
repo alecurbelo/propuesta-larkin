@@ -20,6 +20,24 @@ img, svg{ max-width: 100%; height: auto; }
 .welcome-background{ padding-top: 100px }
 .welcome-read-more-text{ display: none; }
 .welcome-background{ background-color: #f8f9fb; }
-#recent-posts{ padding-top: 100px; }
-#recent-posts{ padding-bottom: 60px; }
+#recent-posts{
+    background-color: #f8f9fb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .title-posts{ padding: 60px;}
+#recent-posts .posts-card{
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+#recent-posts .posts-card img{
+    border-radius: 5px 5px 0 0;
+}
+
+#recent-posts .posts-card-data{
+    padding: 20px;
+}
