@@ -18,6 +18,7 @@ img, svg{ max-width: 100%; height: auto; }
 #service{ padding-top: 100px; }
 #service{ padding-bottom: 60px; }
 .welcome-background{ padding-top: 100px }
+.welcome-background{ padding-bottom: 60px; }
 .welcome-read-more-text{ display: none; }
 .welcome-background{ background-color: #f8f9fb; }
 #recent-posts{
@@ -44,3 +45,50 @@ img, svg{ max-width: 100%; height: auto; }
 #larkin-network{padding-top: 100px;}
 #larkin-network{padding-bottom: 60px;}
 .pills-network{padding-bottom: 40px;}
+.btn-net{
+    color: #fff;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-size: 0.915rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+#university{padding-top: 150px;}
+#university{padding-bottom: 60px;}
+#university{color: #fff;}
+.background-univ{
+    background-image: url(https://jthemes.net/themes/html/medservices/files/images/banner-2.jpg);
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.img-univ{
+    text-align: center;
+    margin-top: -80px;
+    position: relative;
+    z-index: 999;
+}
+.btn-univ{
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #fff;
+    font-size: 0.915rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    padding: 12px 24px;
+    border: 2px solid;
+    border-radius: 6px;
+    transition: all 450ms ease-in-out;
+    margin-top: 50px;
+}
+.btn-univ:hover{background: transparent;}
