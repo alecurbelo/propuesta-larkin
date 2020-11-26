@@ -1,7 +1,21 @@
 img, svg{ max-width: 100%; height: auto; }
 
-#external-links{ padding-top: 100px; }
-#external-links{ padding-bottom: 60px; }
+#external-links{ 
+    padding-top: 100px;
+    padding-bottom: 60px;
+ }
+.h4-emergency{
+    margin-top:50px;
+    margin-left:30px;
+    color: rgb(5, 165, 214);
+}
+.clock{
+    margin-right: 15px;
+    margin-left:30px;
+    width: 40px;
+    fill: rgb(5, 165, 214);
+}
+
 .abox-2-holder{
     background-color: #fff;
         border: 1px solid #eee;
@@ -21,6 +35,8 @@ img, svg{ max-width: 100%; height: auto; }
     padding-top: 100px;
     padding-bottom: 60px;
  }
+ .title-services{padding-bottom: 60px;}
+ .h3-title{margin-bottom: 20px;}
 
 .welcome-background{ 
     padding-top: 100px;
@@ -34,7 +50,7 @@ img, svg{ max-width: 100%; height: auto; }
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.title-posts{ padding: 60px;}
+.title-posts{ padding-bottom: 60px;}
 #recent-posts .posts-card{
     background-color: #fff;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
