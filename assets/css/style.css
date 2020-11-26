@@ -92,3 +92,11 @@ img, svg{ max-width: 100%; height: auto; }
     margin-top: 50px;
 }
 .btn-univ:hover{background: transparent;}
+#education{padding-top: 100px;}
+#education{padding-bottom: 60px;}
+.img-edu{
+    height: auto;
+    max-width: none;
+    display: inline-block;
+}
+.links{padding-top: 40px;}
