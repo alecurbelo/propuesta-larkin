@@ -1,4 +1,5 @@
 img, svg{ max-width: 100%; height: auto; }
+
 #external-links{ padding-top: 100px; }
 #external-links{ padding-bottom: 60px; }
 .abox-2-holder{
@@ -15,12 +16,19 @@ img, svg{ max-width: 100%; height: auto; }
     margin: 0 auto;
     padding: 40px;
     }
-#service{ padding-top: 100px; }
-#service{ padding-bottom: 60px; }
-.welcome-background{ padding-top: 100px }
-.welcome-background{ padding-bottom: 60px; }
+
+#service{ 
+    padding-top: 100px;
+    padding-bottom: 60px;
+ }
+
+.welcome-background{ 
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: #f8f9fb;
+ }
 .welcome-read-more-text{ display: none; }
-.welcome-background{ background-color: #f8f9fb; }
+
 #recent-posts{
     background-color: #f8f9fb;
     padding-top: 100px;
@@ -42,8 +50,11 @@ img, svg{ max-width: 100%; height: auto; }
 #recent-posts .posts-card-data{
     padding: 20px;
 }
-#larkin-network{padding-top: 100px;}
-#larkin-network{padding-bottom: 60px;}
+
+#larkin-network{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
 .pills-network{padding-bottom: 40px;}
 .btn-net{
     color: #fff;
@@ -58,9 +69,11 @@ img, svg{ max-width: 100%; height: auto; }
     border-radius: 6px;
     margin-top: 50px;
 }
-#university{padding-top: 150px;}
-#university{padding-bottom: 60px;}
-#university{color: #fff;}
+#university{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    color: #fff;
+}
 .background-univ{
     background-image: url(https://jthemes.net/themes/html/medservices/files/images/banner-2.jpg);
     position: relative;
@@ -88,15 +101,69 @@ img, svg{ max-width: 100%; height: auto; }
     padding: 12px 24px;
     border: 2px solid;
     border-radius: 6px;
-    transition: all 450ms ease-in-out;
     margin-top: 50px;
 }
-.btn-univ:hover{background: transparent;}
-#education{padding-top: 100px;}
-#education{padding-bottom: 60px;}
-.img-edu{
-    height: auto;
-    max-width: none;
+.btn-univ:hover{
+    background: white;
+        color: black;
+        border-color: #fff;
+}
+
+#education{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    }    
+.img-fluid{max-width: none;}
+.links{padding-top: 40px;}
+.link-edu{
+    margin-bottom: 10px;
     display: inline-block;
 }
-.links{padding-top: 40px;}
+
+#careers{
+    width: 100%;
+    overflow: hidden;
+    background-color: #00a3c8;
+    color: white;
+    }
+    .btn-careers{color: #ffffff;
+        background-color: transparent;
+        border-color: #fff;
+        font-size: 0.915rem;
+        line-height: 1;
+        font-weight: 400;
+        letter-spacing: 0.25px;
+        padding: 12px 24px;
+        border: 2px solid;
+        border-radius: 6px;
+        transition: all 450ms ease-in-out;
+        margin-top: 50px;
+    }
+    .btn-careers:hover{
+        background: white;
+        color: black;
+        border-color: #fff;
+    }
+.block-careers{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.h3-careers{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 2.625rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+.span-car{
+    font-size: 0.825rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
