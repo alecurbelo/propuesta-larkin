@@ -190,6 +190,7 @@ img, svg{ max-width: 100%; height: auto; }
     padding-top: 100px;
     padding-bottom: 60px;
     color: white;
+    position: relative;
     }    
     .block-patients{
         background-color: #00a3c8;
