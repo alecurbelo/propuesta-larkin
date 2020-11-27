@@ -33,7 +33,7 @@ img, svg{ max-width: 100%; height: auto; }
 
 #service{ 
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 160px;
  }
  .title-services{padding-bottom: 60px;}
  .h3-title{margin-bottom: 20px;}
@@ -47,7 +47,7 @@ img, svg{ max-width: 100%; height: auto; }
 
 #recent-posts{
     background-color: #f8f9fb;
-    padding-top: 100px;
+    padding-top: 160px;
     padding-bottom: 100px;
 }
 .title-posts{ padding-bottom: 60px;}
@@ -69,7 +69,7 @@ img, svg{ max-width: 100%; height: auto; }
 
 #larkin-network{
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 160px;
 }
 .pills-network{padding-bottom: 40px;}
 .btn-net{
@@ -86,7 +86,7 @@ img, svg{ max-width: 100%; height: auto; }
     margin-top: 50px;
 }
 #university{
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 60px;
     color: #fff;
 }
@@ -204,7 +204,7 @@ img, svg{ max-width: 100%; height: auto; }
         font-weight: 300;
     }
     .h4-patients{
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         color: white;
     }
     .table-patients{
@@ -222,7 +222,7 @@ img, svg{ max-width: 100%; height: auto; }
         padding: 10px;
         text-align: left;
     }
-    .text-right{
+    .links-right{
         font-size: 16px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
@@ -242,3 +242,47 @@ img, svg{ max-width: 100%; height: auto; }
         width: 60%;
         left: 40%;
     }
+.links{color: white;}
+.links:hover{color: white;}
+#footer{
+    background-image: url(https://jthemes.net/themes/html/medservices/files/images/footer-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #c5d1dc;
+}
+.p-footer{
+    font-size: 0.95rem;
+    margin-top: 20px;
+}
+.location{
+    line-height: 1;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color:white;
+}
+.e-mail:link{
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.e-mail:hover{
+    color: white;
+}
+.foo-bottom{
+    border-top: 1px solid #16739d;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.copy{
+    color:white;
+    font-weight: 500;
+}
