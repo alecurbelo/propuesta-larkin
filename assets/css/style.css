@@ -183,3 +183,60 @@ img, svg{ max-width: 100%; height: auto; }
     letter-spacing: 0.5px;
     margin-bottom: 28px;
 }
+
+#patients{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: white;
+    }    
+    .block-patients{
+        background-color: #00a3c8;
+        padding: 50px 60px;
+        border-radius: 6px;
+        position: relative;
+        margin-right: -100px;
+        z-index: 3;
+        color: #fff;
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+    }
+    .h4-patients{
+        margin-bottom: 15px;
+        color: white;
+    }
+    .table-patients{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    .text-right{
+        font-size: 16px;
+        padding: 18px 0;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        border-top: none;
+        border-bottom: 1px dashed rgba(255, 255, 255, .6);
+    }
+    .table td{
+        font-size: 16px;
+        padding: 18px 0;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        border-top: none;
+        border-bottom: 1px dashed rgb(255 255 255 / 75%);
+    }
+    .img-patients{
+        background-image: url(https://jthemes.net/themes/html/medservices/files/images/info-8.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        left: 50%;
+    }
