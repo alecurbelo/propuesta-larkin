@@ -212,23 +212,24 @@ img, svg{ max-width: 100%; height: auto; }
         margin-bottom: 20px;
         color: #fff;
     }
-    .text-right{
-        font-size: 16px;
-        padding: 18px 0;
-        font-family: 'Lato', sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-        border-top: none;
-        border-bottom: 1px dashed rgba(255, 255, 255, .6);
-    }
     .table td{
         font-size: 16px;
-        padding: 18px 0;
         font-family: 'Lato', sans-serif;
-        font-weight: 900;
+        font-weight: 400;
         text-transform: uppercase;
         border-top: none;
-        border-bottom: 1px dashed rgb(255 255 255 / 75%);
+        border-bottom: none;
+        padding: 10px;
+        text-align: left;
+    }
+    .text-right{
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-top: none;
+        border-bottom: none;
+        text-align: left;
     }
     .img-patients{
         background-image: url(https://jthemes.net/themes/html/medservices/files/images/info-8.jpg);
@@ -238,6 +239,6 @@ img, svg{ max-width: 100%; height: auto; }
         position: absolute;
         top: 0;
         bottom: 0;
-        width: 50%;
-        left: 50%;
+        width: 60%;
+        left: 40%;
     }
