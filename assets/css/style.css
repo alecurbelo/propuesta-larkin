@@ -1,7 +1,9 @@
 img, svg{ max-width: 100%; height: auto; }
 
 #external-links{ 
-    padding-top: 100px;
+    position: relative;
+    margin-top: -120px;
+    z-index: 99;
     padding-bottom: 60px;
  }
 .h4-emergency{
@@ -354,7 +356,7 @@ img, svg{ max-width: 100%; height: auto; }
     margin: 0px auto;
     padding: 0px 0px;
     min-width: 320px;
-    background-color: #00a3c8;
+    background-color: #f2f2f2;
 }
 .logo-header{
     padding: 16px 0px 0px 0px;
@@ -367,7 +369,7 @@ img, svg{ max-width: 100%; height: auto; }
     padding: 0 15px;
     padding-top: 0px;
     padding-right: 15px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
     padding-left: 15px;
     position: relative;
     box-sizing: border-box;
@@ -400,7 +402,7 @@ img, svg{ max-width: 100%; height: auto; }
 }
 .main-menu a{
     display: block;
-    padding: 10px 32px 10px 18px;
+    padding: 20px 32px 10px 18px;
     line-height: 50px;
     text-decoration: none;
     position: relative;
@@ -410,10 +412,10 @@ img, svg{ max-width: 100%; height: auto; }
     font-weight: 400;
 }
 .mk-appointment a{
-    background-color: #00a3c8;
+    background-color: #169faf;
     color: #fff!important;
     line-height: 30px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 10px;
     padding: 5px 15px 5px 15px;
     border-radius: 0px;
@@ -438,21 +440,21 @@ img, svg{ max-width: 100%; height: auto; }
     padding-left: 15px;
 }
 .address span{
-    color: #fff;
+    color:#747373;
     font-size: 12px;
     line-height: 40px;
     margin-right: 9px;
 }
 .address span i{
     position: relative;
-    color: #fff;
+    color: #747373;
     font-size: 14px;
     top: -1px;
     margin-right: 7px;
     margin-left: 5px;
 }
 .address a{ 
-    color: #fff;
+    color: #747373;
     font-size: 13px;
     line-height: 40px;
 }
@@ -467,7 +469,65 @@ img, svg{ max-width: 100%; height: auto; }
     height: 40px;
     text-align: center;
     line-height: 40px;
-    color: #fff;
+    color: #747373;
     font-size: 14px;
     float: right;
+}
+#banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.banner-section{
+    background-color: #169faf;
+}
+.img-banner{
+    background-image: url(https://jthemes.net/themes/html/medservices/files/images/hero-12-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 45%;
+    left: 55%;
+}
+.banner-section .container{
+    position: relative;
+    z-index: 3;
+}
+.banner-left{
+    color:white;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.banner-left h5{
+    font-size: 0.85rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.banner-left h2{
+    font-size: 4rem;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.links-icon{
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    float: left;
+    margin-right: 7px;
+}
+.links-banner a{
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.links-banner a:hover{
+    background-color: transparent;
+    color: white;
 }
