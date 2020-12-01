@@ -412,7 +412,7 @@ img, svg{ max-width: 100%; height: auto; }
     font-weight: 400;
 }
 .mk-appointment a{
-    background-color: #169faf;
+    background-color:#00a3c8;
     color: #fff!important;
     line-height: 30px;
     margin-top: 25px;
@@ -481,7 +481,7 @@ img, svg{ max-width: 100%; height: auto; }
     padding-bottom: 200px;
 }
 .banner-section{
-    background-color: #169faf;
+    background-color: #00a3c8;
 }
 .img-banner{
     background-image: url(https://jthemes.net/themes/html/medservices/files/images/hero-12-img.jpg);
