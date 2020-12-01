@@ -8,17 +8,55 @@
 <body>
     <header>
         <div class="header-top clearfix">
+            <div class="header-info">
+                <div class="topleft">
+                    <div class="address clearfix">
+                        <span>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            7031 SW 62nd Avenue South Miami, FL 33143
+                        </span>
+                        <a href="tel:305-284-7500" class="callusbtn">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            305-284-7500
+                        </a>
+                    </div> 
+                </div>
+                <div class="topright">
+                    <a class="pinterest" href="https://www.pinterest.com/larkinhospital/">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                    <a class="pinterest" href="https://www.linkedin.com/company/larkin-community-hospital">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a class="pinterest" href="https://twitter.com/larkinhospital/">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a class="pinterest" href="https://www.facebook.com/LarkinHospital/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
 
+            </div>   
         </div>
         <div class="menu-header clearfix">
-            <img class="logo-header" src="http://larkinhospital.com/site/wp-content/uploads/2011/12/Banner-Logo-White.png" width="180" height="40"/>
+            <img class="logo-header" src="https://staffing.larkinhospital.com/wp-content/uploads/2020/05/898360200720085301-1536x575.png.webp" width="180" height="40"/>
             <nav class="main-menu">
                 <ul>
                     <li aria-haspopup="true">
                         <a href="">Home</a>
                     </li>
                     <li aria-haspopup="true">
-                        <a href="">Services</a>
+                        <div class="dropdown show">
+                            <a class="dropdown-toggle drop-services" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Services
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="https://www.larkinhospital.com/site/find-a-physician-3/">Find a Physician</a>
+                              <a class="dropdown-item" href="https://www.larkinhospital.com/site/hospital-services-by-location/">Hospital Services by Location</a>
+                              <a class="dropdown-item" href="https://www.larkinhospital.com/site/adolescent-psychiatry-program/">Adolescent Psychiatry Program</a>
+                            </div>
+                          </div>
                     </li>
                     <li aria-haspopup="true">
                         <a href="">Contact Us</a>
@@ -547,6 +585,8 @@
 <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap-grid.css"/>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 <script defer="defer" src="vendors/jquery/jquery-3.5.1.min.js?ver=3.5.1"></script>
+<script defer="defer" src="vendors/bootstrap/js/bootstrap.bundle.js"></script>
+<script defer="defer" src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script defer="defer" src="vendors/bootstrap/js/bootstrap.min.js" id="bootstrap-js"></script>
 </body>
 </html>

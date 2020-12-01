@@ -419,3 +419,55 @@ img, svg{ max-width: 100%; height: auto; }
     border-radius: 0px;
     -webkit-border-radius: 4px;
 }
+.drop-services{
+    background-color: transparent;
+    border: none;
+}
+.drop-services:hover{
+    background-color: transparent;
+    color:  #666;
+}
+.header-info{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+.topleft{
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}
+.address span{
+    color: #fff;
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 9px;
+}
+.address span i{
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    top: -1px;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+.address a{ 
+    color: #fff;
+    font-size: 13px;
+    line-height: 40px;
+}
+.topright{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+}
+.topright a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+}
