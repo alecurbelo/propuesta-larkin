@@ -76,13 +76,76 @@ body{
  }
  .title-services{padding-bottom: 60px;}
  .h3-title{margin-bottom: 20px;}
+ #service h5{
+    font-size: 1.05rem;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #004861;
+}
+#service p{
+    font-size: 0.925rem;
+    margin-bottom: 0;
+}
+#service a:hover{
+    color:transparent;
+}
 
 .welcome-background{ 
     padding-top: 100px;
     padding-bottom: 60px;
     background-color: #f8f9fb;
  }
-.welcome-read-more-text{ display: none; }
+.welcome-read-more-text{ 
+    display: none; 
+}
+.welcome-title{
+    font-size: 0.825rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+    color: #00a3c8;
+}
+#welcome h2{
+    margin-bottom: 30px;
+    font-size: 2.625rem;
+    color: #004861;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+
+}
+#welcome a{
+    color:#00a3c8;
+}
+#welcome a:hover{
+    color: #00a3c8;
+}
+
+.ceo-block{
+    margin-top: 60px;
+}
+.ceo-info{
+    margin-top: 10px;
+    font-size: 0.75rem;
+}
+.ceo-info h5{
+    font-size: 0.90rem;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.ceo-info p{
+    margin-bottom: 5px;
+}
+.ceo-img{
+    width: 60px;
+    height: auto;
+}
 
 #recent-posts{
     background-color: #f8f9fb;
