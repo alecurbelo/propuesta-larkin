@@ -532,11 +532,23 @@ img, svg{ max-width: 100%; height: auto; }
     color: white;
 }
 #banner-marketing{
-    background-image: url("assets/images/degradado.jpg");
+    background-image: url("../images/degradado.jpg");
+    background-color: #00a3c8;
     padding-top: 120px;
     padding-bottom: 120px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+.marketing{
+    color: white;
+}
+.marketing h2{
+    line-height: 1.25;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    font-size: 3.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
