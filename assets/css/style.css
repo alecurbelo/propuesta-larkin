@@ -2,10 +2,12 @@ img, svg{ max-width: 100%; height: auto; }
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Lato", sans-serif;
-    }
-    body{
-        font-family: "Roboto", sans-serif;
-        }
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    font-weight: 300;
+}
 
 #external-links{ 
     position: relative;
@@ -27,18 +29,46 @@ h1,h2,h3,h4,h5,h6{
 
 .abox-2-holder{
     background-color: #fff;
-        border: 1px solid #eee;
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        -o-border-radius: 6px;
-        border-radius: 6px;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border: 1px solid #eee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     max-width: 1110px;
     margin: 0 auto;
     padding: 40px;
-    }
+}
+.abox-2-holder h5{
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    color: #004861;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+.abox-2-holder p{
+    font-size: 0.925rem;
+    margin-bottom: 0;
+}
+.btn-external-links{
+    font-size: 0.78125rem;
+    line-height: 1;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    border: 2px solid transparent;
+    margin-top: 25px;
+}
+.btn-external-links:hover{
+    background-color: #1c859c;
+    color: white;
+}
 
 #service{ 
     padding-top: 160px;
@@ -179,7 +209,6 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 0px;
     margin-bottom: 30px;
     font-size: 2.625rem;
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     letter-spacing: -0.25px;
 }
@@ -209,7 +238,6 @@ h1,h2,h3,h4,h5,h6{
         margin-right: -100px;
         z-index: 3;
         color: #fff;
-        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 300;
     }
     .h4-patients{
@@ -253,6 +281,7 @@ h1,h2,h3,h4,h5,h6{
     }
 .links{color: white;}
 .links:hover{color: white;}
+
 #footer{
     background-image: url(https://jthemes.net/themes/html/medservices/files/images/footer-bg.jpg);
     width: 100%;
@@ -520,19 +549,22 @@ h1,h2,h3,h4,h5,h6{
 .banner-left h2{
     font-size: 4rem;
     letter-spacing: -0.5px;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 35px;
 }
 .links-icon{
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     float: left;
     margin-right: 7px;
+    padding: 3px 0px 0px 0px;
 }
 .links-banner a{
     color: white;
     display: inline-block;
     margin-bottom: 10px;
+    font-size: 1.25rem;
 }
 .links-banner a:hover{
     background-color: transparent;
@@ -561,4 +593,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .links-banner p{
     margin-bottom: 5px;
+}
+.marketing a{
+    font-size: 1rem!important;
+}
+.mark-i{
+    display:inline-block;
+    margin-top: -3px!important;
 }
