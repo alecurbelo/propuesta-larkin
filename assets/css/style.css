@@ -531,3 +531,12 @@ img, svg{ max-width: 100%; height: auto; }
     background-color: transparent;
     color: white;
 }
+#banner-marketing{
+    background-image: url("assets/images/degradado.jpg");
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
