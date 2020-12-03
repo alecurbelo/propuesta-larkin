@@ -353,10 +353,14 @@ body{
         z-index: 3;
         color: #fff;
         font-weight: 300;
+        font-size: 1rem;
     }
     .h4-patients{
         margin-bottom: 20px;
         color: white;
+        font-size: 1.75rem;
+        font-weight: 700;
+        letter-spacing: -0.25px;
     }
     .table-patients{
         margin-top: 20px;
@@ -421,19 +425,13 @@ body{
 }
 .e-mail:link{
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     display: inline-block;
     margin-bottom: 10px;
     text-decoration: underline;
 }
 .e-mail:hover{
     color: white;
-}
-.phone{
-    color: #c5d1dc;
-}
-.phone:hover{
-    color: #c5d1dc;
 }
 .foo-bottom{
     border-top: 1px solid #16739d;
@@ -442,7 +440,7 @@ body{
 }
 .copy{
     color:white;
-    font-weight: 500;
+    font-weight: 400;
 }
 .social-ico{
     border: 2px solid  #c5d1dc;
