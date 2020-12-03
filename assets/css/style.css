@@ -362,29 +362,17 @@ body{
         font-weight: 700;
         letter-spacing: -0.25px;
     }
-    .table-patients{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: #fff;
-    }
-    .table td{
-        font-size: 16px;
+    .links-patients{
+        font-size: 13px;
         font-family: 'Lato', sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         text-transform: uppercase;
-        border-top: none;
-        border-bottom: none;
-        padding: 10px;
-        text-align: left;
+        padding: 15px 0px 0px 0px;
     }
-    .links-right{
-        font-size: 16px;
-        font-family: 'Lato', sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        border-top: none;
-        border-bottom: none;
-        text-align: left;
+    .links-patients a{
+        color:white;
+        margin-bottom: 10px;
+        display:inline-block;
     }
     .img-patients{
         background-image: url(https://jthemes.net/themes/html/medservices/files/images/info-8.jpg);
