@@ -74,8 +74,24 @@ body{
     padding-top: 160px;
     padding-bottom: 160px;
  }
- .title-services{padding-bottom: 60px;}
- .h3-title{margin-bottom: 20px;}
+ .title-services{
+     padding-bottom: 60px;
+    }
+.title-posts{
+    color: #888;
+    padding: 0 20%;
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+ .h3-title{
+     margin-bottom: 20px;
+     font-weight: 700;
+     letter-spacing: -0.25px;
+     color: #004861;
+     font-size: 2.625rem;
+     line-height: 1;
+    }
  #service h5{
     font-size: 1.05rem;
     line-height: 1;
@@ -152,7 +168,6 @@ body{
     padding-top: 160px;
     padding-bottom: 100px;
 }
-.title-posts{ padding-bottom: 60px;}
 #recent-posts .posts-card{
     background-color: #fff;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
@@ -167,6 +182,21 @@ body{
 
 #recent-posts .posts-card-data{
     padding: 20px;
+}
+.posts-links{
+    color: #004861;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    margin-bottom: 5px;
+    font-size: 1.1875rem;
+    display: inline-block;
+}
+.posts-links:hover{
+    color:#00a3c8;
+}
+.posts-read-more-text{
+    display: none;
 }
 
 #larkin-network{
@@ -283,12 +313,46 @@ body{
     overflow: hidden;
     padding-top: 100px;
     padding-bottom: 160px;
-    }    
-.img-fluid{max-width: none;}
-.links{padding-top: 40px;}
+}    
+.img-fluid{
+    max-width: none;
+}
+.links{
+    padding-top: 40px;
+}
 .link-edu{
-    margin-bottom: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
     display: inline-block;
+    color: #004861;
+    
+}
+.link-edu:hover{
+    color: #00a3c8;
+}
+#education h6{
+    font-size: 0.825rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+    color: #00a3c8;
+}
+#education h2{
+    margin-bottom: 30px;
+    font-size: 2.625rem;
+    color: #004861;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+#education p{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+#education i{
+    color: #004861;    
 }
 
 #careers{
@@ -659,13 +723,6 @@ body{
     text-transform: uppercase;
     margin-bottom: 35px;
 }
-.links-icon{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    float: left;
-    margin-right: 7px;
-    padding: 3px 0px 0px 0px;
-}
 .links-banner a{
     color: white;
     display: inline-block;
@@ -702,8 +759,4 @@ body{
 }
 .marketing a{
     font-size: 1rem!important;
-}
-.mark-i{
-    display:inline-block;
-    margin-top: -3px!important;
 }
