@@ -10,17 +10,17 @@
 <header>
     <div class="header-top clearfix">
         <div class="header-info">
-            <div class="topleft">
-                <div class="address clearfix">
+            <div class="topleft d-flex">
+                <div class="address clearfix d-none d-sm-block">
                         <span>
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             7031 SW 62nd Avenue South Miami, FL 33143
                         </span>
+                </div>
                     <a href="tel:305-284-7500" class="callusbtn">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         305-284-7500
                     </a>
-                </div>
             </div>
             <div class="topright">
                 <a class="pinterest" href="https://www.pinterest.com/larkinhospital/">
@@ -38,50 +38,58 @@
             </div>
         </div>
     </div>
-    <div class="menu-header clearfix">
-        <img class="logo-header"
-             src="https://staffing.larkinhospital.com/wp-content/uploads/2020/05/898360200720085301-1536x575.png.webp"
-             width="160" height="auto"/>
-        <nav class="main-menu">
-            <ul>
-                <li aria-haspopup="true">
-                    <a href="">Home</a>
-                </li>
-                <li aria-haspopup="true">
-                    <div class="dropdown show">
-                        <a class="dropdown-toggle drop-services" href="#" role="button" id="dropdownMenuLink"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services
-                        </a>
+    <div class="menu-header">
+        <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo-header"
+                     src="https://staffing.larkinhospital.com/wp-content/uploads/2020/05/898360200720085301-1536x575.png.webp"
+                     width="160" height="auto"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="https://www.larkinhospital.com/site/find-a-physician-3/">Find
-                                a Physician</a>
-                            <a class="dropdown-item"
-                               href="https://www.larkinhospital.com/site/hospital-services-by-location/">Hospital
-                                Services by Location</a>
-                            <a class="dropdown-item"
-                               href="https://www.larkinhospital.com/site/adolescent-psychiatry-program/">Adolescent
-                                Psychiatry Program</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="main-menu navbar-nav">
+                    <li aria-haspopup="true">
+                        <a href="">Home</a>
+                    </li>
+                    <li aria-haspopup="true">
+                        <div class="dropdown show">
+                            <a class="dropdown-toggle drop-services" href="#" role="button" id="dropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.larkinhospital.com/site/find-a-physician-3/">Find
+                                    a Physician</a>
+                                <a class="dropdown-item"
+                                   href="https://www.larkinhospital.com/site/hospital-services-by-location/">Hospital
+                                    Services by Location</a>
+                                <a class="dropdown-item"
+                                   href="https://www.larkinhospital.com/site/adolescent-psychiatry-program/">Adolescent
+                                    Psychiatry Program</a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <!--    <li aria-haspopup="true">
-                        <a href="">Careers</a>
                     </li>
+                    <!--    <li aria-haspopup="true">
+                            <a href="">Careers</a>
+                        </li>
+                        <li aria-haspopup="true">
+                            <a href="">Education</a>
+                        </li>
+                        <li aria-haspopup="true">
+                            <a href="">Patient & Visitors</a>
+                        </li>-->
                     <li aria-haspopup="true">
-                        <a href="">Education</a>
+                        <a href="">Contact Us</a>
                     </li>
-                    <li aria-haspopup="true">
-                        <a href="">Patient & Visitors</a>
-                    </li>-->
-                <li aria-haspopup="true">
-                    <a href="">Contact Us</a>
-                </li>
-                <li class="mk-appointment" aria-haspopup="true">
-                    <a href="">Make Appointment</a>
-                </li>
-            </ul>
+                    <li class="mk-appointment" aria-haspopup="true">
+                        <a href="">Make Appointment</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>

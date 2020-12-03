@@ -570,17 +570,26 @@ body{
     margin: 0;
     float: left;
 }
-.menu-header{ 
-    margin: 0 auto;
-    max-width: 1140px;
-    padding: 0 15px;
-    padding-top: 0px;
+.menu-header{
+    padding-top: 0;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
     position: relative;
     box-sizing: border-box;
+    background: #ffffff !important;
+    max-width: 1140px;
+    margin: 0 auto;
 }
+.menu-header .navbar{
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+.menu-header .navbar .navbar-brand{
+    flex: 1;
+}
+
 .main-menu{
     color: #fff;
     font-size: 14.5px;
@@ -646,13 +655,13 @@ body{
     float: left;
     padding-left: 15px;
 }
-.address span{
+.topleft span{
     color:#747373;
     font-size: 12px;
     line-height: 40px;
     margin-right: 9px;
 }
-.address span i{
+.topleft span i{
     position: relative;
     color: #747373;
     font-size: 14px;
@@ -660,7 +669,7 @@ body{
     margin-right: 7px;
     margin-left: 5px;
 }
-.address a{ 
+.topleft a{
     color: #747373;
     font-size: 13px;
     line-height: 40px;
