@@ -812,6 +812,18 @@ body{
         order: 2;
         padding-top: 30px;
     }
+    .pay-bill-btn{
+        margin-top: 45px;
+    }
+    .clock{
+        width:25px;
+        height: auto;
+        margin: 0px 2px 3px 0px; 
+
+    }
+    .h4-emergency{
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 767px){
