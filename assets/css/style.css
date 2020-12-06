@@ -584,8 +584,14 @@ body{
     background: transparent !important;
     width: 100%;
 }
+
 .menu-header .navbar .navbar-brand{
     flex: 1;
+}
+
+.menu-header .navbar .call-iphone{
+    display: none;
+    font-size: 24px;
 }
 
 .main-menu{
@@ -768,6 +774,32 @@ body{
 .marketing a{
     font-size: 1rem!important;
 }
+
+@media (max-width: 991px){
+    .menu-header .navbar .call-iphone{
+        display: block;
+    }
+    .menu-header .navbar .navbar-brand{
+        text-align: center;
+        margin-left: 1rem;
+        display: inherit;
+    }
+    .menu-header .navbar .navbar-brand img{
+        margin: 0 auto;
+    }
+    .menu-header{
+        padding-bottom: 0;
+    }
+    .main-menu li{
+        width: 100%;
+        display: inline-block;
+    }
+    .main-menu li a{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
 @media (max-width: 767px){
     #banner{
         text-align: center;
@@ -860,5 +892,5 @@ body{
     
  }
  @media (min-width: 992px) and (max-width: 1199px) {
-    los cambios aqio
+
  }
