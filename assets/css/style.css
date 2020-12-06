@@ -216,7 +216,7 @@ body{
     line-height: 1;
     font-weight: 400;
     letter-spacing: 0.25px;
-    padding: 12px 24px;
+    padding: 14px 30px;
     border: 2px solid transparent;
     border-radius: 6px;
     margin-top: 50px;
@@ -315,9 +315,6 @@ body{
     padding-top: 100px;
     padding-bottom: 160px;
 }    
-.img-fluid{
-    max-width: none;
-}
 .links{
     padding-top: 40px;
 }
@@ -771,3 +768,97 @@ body{
 .marketing a{
     font-size: 1rem!important;
 }
+@media (max-width: 767px){
+    #banner{
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .banner-left h2{
+        font-size: 2.5rem;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+    .links-banner a{
+        font-size: 1.075rem;
+        padding: 0 5%;
+    }
+    .banner-left h5{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .img-banner{
+        background-position: top center;
+        position: relative;
+        left: 0;
+        height: 350px;
+        width: auto!important;
+        margin-top: 60px;
+    }
+    #external-links{
+        margin-top: -80px;
+        padding-bottom: 60px;
+    }
+    .abox-2-holder{
+        padding: 15px 0px 15px 0px;
+    }
+    .external-mvl{
+        padding: 25px 20px 25px 20px;
+    }
+    #banner-marketing{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .marketing h2{
+        font-size: 2.5rem;
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+    }
+    .links-banner{
+        display:inline-block;
+        text-align: left;
+        font-size: 0.80rem!important;
+        padding-bottom: 50px;
+    }
+    .links-banner a{
+        display:inline-block;
+        padding:0px;
+        font-size: 0.80rem!important;
+    }
+    #service{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #service h5{
+        margin: 15px 0px 10px 0px;
+    }
+    #service p{
+        margin: 0px 0px 15px 0px;
+    }
+    .welcome-title{
+        margin-top: 20px;
+    }
+    #larkin-network{
+        box-sizing: border-box;
+        padding: 60px 15px 60px 15px;
+    }
+    .tab-content h3{
+        margin: 30px 0px 20px 0px;
+        font-size: 2.125rem;
+        padding:0px 10px 0px 0px;
+    }
+    .tab-content p{
+        margin: 0px 0px 0px 0px;
+        font-size: 1.1075rem;
+        padding:0px 10px 0px 0px;
+    }
+    .btn-net{
+        margin:30px 0px 0px 0px;
+    }
+
+    
+ }
+ @media (min-width: 992px) and (max-width: 1199px) {
+    los cambios aqio
+ }
