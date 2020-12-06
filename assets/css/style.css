@@ -110,11 +110,14 @@ body{
     color:transparent;
 }
 
-.welcome-background{ 
+.welcome-background{
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
     background-color: #f8f9fb;
  }
+.welcome-text{
+    padding-bottom: 60px;
+}
 .welcome-read-more-text{ 
     display: none; 
 }
@@ -802,6 +805,13 @@ body{
         display: none;
     }
     
+    .welcome-text{
+        order: 1;
+    }
+    .welcome-image{
+        order: 2;
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 767px){
@@ -901,3 +911,6 @@ body{
  @media (min-width: 992px) and (max-width: 1199px) {
 
  }
+
+
+
