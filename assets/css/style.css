@@ -798,6 +798,10 @@ body{
         margin-right: 0 !important;
         margin-left: 0 !important;
     }
+    .header-top{
+        display: none;
+    }
+    
 }
 
 @media (max-width: 767px){
@@ -887,6 +891,9 @@ body{
     }
     .btn-net{
         margin:30px 0px 0px 0px;
+    }
+    .header-top{
+        display: none;
     }
 
     
