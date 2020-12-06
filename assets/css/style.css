@@ -824,6 +824,14 @@ body{
     .h4-emergency{
         font-size: 1.2rem;
     }
+    .call-iphone a{
+        font-size: 20px;
+        padding: 25px 20px;
+        color: #a9a9a9;
+        position: absolute;
+        right: 5px;
+        top: 0px;
+    }
 }
 
 @media (max-width: 767px){
@@ -916,6 +924,20 @@ body{
     }
     .header-top{
         display: none;
+    }
+    .call-iphone a{
+        font-size: 20px;
+        padding: 2rem 0.75rem 0.25rem 0.75rem;
+        color: #a9a9a9;
+    }
+    .menu-header .navbar .navbar-brand img{
+        margin: 0px 20px;
+    }
+    .menu-header .navbar .navbar-brand{
+        text-align: center;
+        margin-left: 1rem;
+        display: inherit;
+
     }
 
     
