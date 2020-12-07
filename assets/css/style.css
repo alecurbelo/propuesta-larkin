@@ -860,6 +860,10 @@ body{
     #navbarSupportedContent.show{
         left: 0;
     }
+    .posts-mvl{
+        margin-bottom: 20px;
+        min-height: 100%;
+    }
 }
 
 @media (max-width: 767px){
