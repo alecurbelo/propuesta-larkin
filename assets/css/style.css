@@ -789,6 +789,15 @@ body{
 .marketing a{
     font-size: 1rem!important;
 }
+.navbar-toggler{
+    padding: 0;
+    border: none;
+    outline: none !important;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("../images/menu.svg");
+}
 
 @media (max-width: 991px){
     .menu-header .navbar .call-iphone{
