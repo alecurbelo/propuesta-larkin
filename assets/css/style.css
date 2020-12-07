@@ -844,8 +844,21 @@ body{
         right: 5px;
         top: 0px;
     }
-    .posts-card{
-        margin-top: 20px;
+    #navbarSupportedContent{
+        display: block !important;
+        width: 320px;
+        padding: 5px 10px;
+        box-shadow: 6px 0 5px rgba(0, 0, 0, 0.17);
+        position: fixed;
+        top: 0;
+        left: -350px;
+        z-index: 99999;
+        height: 100%;
+        background: #ffffff;
+        transition: all .5s ease;
+    }
+    #navbarSupportedContent.show{
+        left: 0;
     }
 }
 
@@ -960,6 +973,4 @@ body{
  @media (min-width: 992px) and (max-width: 1199px) {
 
  }
-
-
 
