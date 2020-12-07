@@ -890,7 +890,7 @@ body{
     }
     #navbarSupportedContent{
         display: block !important;
-        width: 255px;
+        width: 250px;
         padding: 0;
         box-shadow: 6px 0 5px rgba(0, 0, 0, 0.17);
         position: fixed;
