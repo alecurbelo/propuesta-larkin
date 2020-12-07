@@ -1,13 +1,14 @@
 (function ($) {
     $(function () {
-        $("#navbarSupportedContent a").click(function(e){
+        $("#navbarSupportedContent a,.close-menu-wrapper").click(function(e){
             $("#navbarSupportedContent").removeClass('show');
             $(".navbar-toggler").attr('aria-expanded', 'false');
+            $('.movil-over-color').fadeOut();
         });
-        $(".close-menu-wrapper").click(function(e){
-            e.preventDefault();
-            $("#navbarSupportedContent").removeClass('show');
-            $(".navbar-toggler").attr('aria-expanded', 'false');
+
+
+        $(".navbar-toggler").click(function(){
+            $('.movil-over-color').fadeIn();
         });
 
     });
