@@ -847,7 +847,7 @@ body{
     #navbarSupportedContent{
         display: block !important;
         width: 320px;
-        padding: 5px 10px;
+        padding: 0;
         box-shadow: 6px 0 5px rgba(0, 0, 0, 0.17);
         position: fixed;
         top: 0;
@@ -859,6 +859,26 @@ body{
     }
     #navbarSupportedContent.show{
         left: 0;
+    }
+    #navbarSupportedContent.show ul a{
+        margin: 0;
+        padding: 10px 15px;
+        border-top: 1px solid rgba(0, 0, 0, 0.13);
+        line-height: 34px;
+        text-align: left;
+    }
+    li.mk-appointment a{
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+    #navbarSupportedContent.show .dropdown-menu{
+        border: none;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    #navbarSupportedContent.show .dropdown-menu a{
+        padding-left: 30px;
+        font-size: 13px;
     }
 }
 
