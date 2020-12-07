@@ -859,7 +859,7 @@ body{
     }
     #navbarSupportedContent{
         display: block !important;
-        width: 320px;
+        width: 295px;
         padding: 0;
         box-shadow: 6px 0 5px rgba(0, 0, 0, 0.17);
         position: fixed;
@@ -896,6 +896,17 @@ body{
     #navbarSupportedContent.show .dropdown-menu a{
         padding-left: 30px;
         font-size: 13px;
+    }
+    .btn-careers{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .span-car{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .h3-careers{
+        margin-bottom: 20px;
     }
 }
 
