@@ -248,6 +248,17 @@ body{
     color: #fff;
     border-radius: 6px;
 }
+.logo-gris{
+    width: 25px;
+    height: auto;
+    padding-bottom: 3px;
+}
+.logo-gris1{
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+    padding-bottom: 3px;
+}
 .tab-pane h3{
     color: #004861;
     margin-bottom: 30px;
