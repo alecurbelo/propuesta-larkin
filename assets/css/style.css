@@ -258,6 +258,10 @@ body{
     margin-right: 5px;
     padding-bottom: 3px;
 }
+.nav-fill .nav-item, .nav-fill > .nav-link {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+   }
 .tab-pane h3{
     color: #004861;
     margin-bottom: 30px;
