@@ -800,6 +800,10 @@ body{
 }
 
 @media (max-width: 991px){
+
+    .logo-header{
+      padding: 10px;
+    }
     .menu-header .navbar .call-iphone{
         display: block;
     }
