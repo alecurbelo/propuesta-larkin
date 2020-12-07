@@ -280,7 +280,7 @@ body{
     color: #fff;
 }
 .background-univ{
-    background-image: url(https://jthemes.net/themes/html/medservices/files/images/banner-2.jpg);
+    background-image: url(../images/banner-2.jpg);
     position: relative;
     z-index: 1;
     background-attachment: fixed !important;
@@ -451,7 +451,7 @@ body{
         display:inline-block;
     }
     .img-patients{
-        background-image: url(https://jthemes.net/themes/html/medservices/files/images/info-8.jpg);
+        background-image: url(../images/info-8.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -465,7 +465,7 @@ body{
 .links:hover{color: white;}
 
 #footer{
-    background-image: url(https://jthemes.net/themes/html/medservices/files/images/footer-bg.jpg);
+    background-image: url(../images/footer-bg.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -606,6 +606,7 @@ body{
 .menu-header .navbar .call-iphone{
     display: none;
     font-size: 24px;
+    width: 56px;
 }
 
 .main-menu{
@@ -718,7 +719,7 @@ body{
     background-color: #00a3c8;
 }
 .img-banner{
-    background-image: url(https://jthemes.net/themes/html/medservices/files/images/hero-12-img.jpg);
+    background-image: url(../images/hero-12-img.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
