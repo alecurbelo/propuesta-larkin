@@ -7,6 +7,15 @@
     <link rel="shortcut icon" href="assets/images/favicon.png"/>
 </head>
 <body>
+<style type="text/css">
+    .page-loader svg circle{width:100px;height:100px;}.page-loader svg{width:100px;height:100px;}.page-loader{background:#19B3BD;position:fixed;z-index:10000;top:0;left:0;width:100%;height:100%;opacity:1;display:flex;align-items:center;align-content:center;justify-content:center}.page-loader.loaded{opacity:0;transform:translate3d(0,-100%,0);transition:opacity .25s cubic-bezier(.2,1,.3,1) 0ms,transform .25s cubic-bezier(.2,1,.3,1) .25s}.page-loader__container{text-align:center}.page-loader__message,.page-loader__title{margin:0;padding:0}.page-loader__title{text-transform:uppercase;font-weight:700;letter-spacing:1px;color:#fff}.page-loader__message,.page-loader__title{font-family:Oswald,Arial,Helvetica,sans-serif;font-size:1rem}.page-loader__message{text-transform:none;font-weight:400;color:#fff}.page-loader__icon{margin:0 0 1rem}
+</style>
+<div class="page-loader">
+    <div class="page-loader__container container--small">
+        <img style="color: #19B3BD" alt="Pograma Rastreadores de Contactos" src="assets/images/favicon1.gif">
+        <p style="font-size: 12px" class="page-loader__message"><?php echo pll__('Loading...'); ?></p>
+    </div>
+</div>
 <header>
     <div class="header-top clearfix">
         <div class="header-info">
@@ -732,5 +741,12 @@
 <script defer="defer" src="vendors/bootstrap/js/bootstrap.bundle.js"></script>
 <script defer="defer" src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script defer="defer" src="vendors/bootstrap/js/bootstrap.min.js" id="bootstrap-js"></script>
+<script>
+    (function($) {
+        $(window).on('load', function() {
+            $('.page-loader').addClass('loaded');
+        });
+    })(jQuery);
+</script>
 </body>
 </html>
