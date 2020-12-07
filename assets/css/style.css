@@ -844,6 +844,9 @@ body{
         right: 5px;
         top: 0px;
     }
+    .posts-card{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 767px){
