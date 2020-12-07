@@ -798,8 +798,29 @@ body{
     background-image: url("../images/menu.svg");
 }
 
-@media (max-width: 991px){
+.close-menu-wrapper{
+    display: none;
+}
 
+@media (max-width: 991px){
+    .close-menu-wrapper{
+        display: block;
+        position: relative;
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .close-menu-icon{
+        display: inline-block;
+        width: 40px;
+        height: 54px;
+        background: #fff;
+        position: absolute;
+        z-index: 999999;
+        box-shadow: 6px 0 5px rgba(0, 0, 0, 0.17);
+        cursor: pointer;
+        padding: 11px;
+        line-height: 30px;
+    }
     .logo-header{
       padding: 10px;
     }
@@ -858,7 +879,7 @@ body{
     }
     #navbarSupportedContent{
         display: block !important;
-        width: 295px;
+        width: 270px;
         padding: 0;
         box-shadow: 6px 0 5px rgba(0, 0, 0, 0.17);
         position: fixed;
@@ -882,6 +903,9 @@ body{
         border-top: 1px solid rgba(0, 0, 0, 0.13);
         line-height: 34px;
         text-align: left;
+    }
+    #navbarSupportedContent.show ul li:first-child a{
+        border-top: none;
     }
     li.mk-appointment a{
         border-radius: 0px;
