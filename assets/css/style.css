@@ -770,11 +770,23 @@ body{
     display: inline-block;
     margin-bottom: 10px;
     font-size: 1.25rem;
-    color: #004861;
+    color:#004861;
+    text-shadow: 1px 1px  #c6c9caad;
 }
 .links-banner a:hover{
     background-color: transparent;
-    color:#00a3c8;
+    color: #004861;
+}
+.links-marketing a{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color:white;
+    text-shadow: 0.3px 0.3px  #c6c9caad;
+}
+.links-marketing a:hover{
+    background-color: transparent;
+    color: white;
 }
 #banner-marketing{
     background-image: url("../images/degradado.jpg");
@@ -788,6 +800,7 @@ body{
 }
 .marketing{
     color: white;
+    text-shadow: 0.3px 0.3px  #c6c9caad;
 }
 .marketing h2{
     line-height: 1.25;
