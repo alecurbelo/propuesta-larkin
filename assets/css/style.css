@@ -585,7 +585,7 @@ body{
     margin: 0px auto;
     padding: 0px 0px;
     min-width: 320px;
-    background-color: #f2f2f2;
+    background-color: #00a3c8;
 }
 .logo-header{
     padding: 16px 0px 0px 0px;
@@ -686,21 +686,21 @@ body{
     padding-left: 15px;
 }
 .topleft span{
-    color:#747373;
+    color:white;
     font-size: 12px;
     line-height: 40px;
     margin-right: 9px;
 }
 .topleft span i{
     position: relative;
-    color: #747373;
+    color: white;
     font-size: 14px;
     top: -1px;
     margin-right: 7px;
     margin-left: 5px;
 }
 .topleft a{
-    color: #747373;
+    color: white;
     font-size: 13px;
     line-height: 40px;
 }
@@ -715,7 +715,7 @@ body{
     height: 40px;
     text-align: center;
     line-height: 40px;
-    color: #747373;
+    color:white;
     font-size: 14px;
     float: right;
 }
@@ -727,10 +727,10 @@ body{
     padding-bottom: 200px;
 }
 .banner-section{
-    background-color: #00a3c8;
+    background-image: url(../images/banner-back.jpg);
 }
 .img-banner{
-    background-image: url(../images/hero-12-img.jpg);
+    background-image: url(../images/banner-img.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -755,23 +755,25 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 25px;
+    color: #004861;
 }
 .banner-left h2{
-    font-size: 4rem;
+    font-size: 4.5rem;
     letter-spacing: -0.5px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
+    color: #004861;
 }
 .links-banner a{
-    color: white;
     display: inline-block;
     margin-bottom: 10px;
     font-size: 1.25rem;
+    color: #004861;
 }
 .links-banner a:hover{
     background-color: transparent;
-    color: white;
+    color:#00a3c8;
 }
 #banner-marketing{
     background-image: url("../images/degradado.jpg");
