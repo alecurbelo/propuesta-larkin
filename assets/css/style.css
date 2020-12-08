@@ -617,7 +617,7 @@ body{
 .menu-header .navbar .call-iphone{
     display: none;
     font-size: 24px;
-    width: 56px;
+    width: 30px;
 }
 
 .main-menu{
@@ -1064,7 +1064,7 @@ body{
         color: #a9a9a9;
     }
     .menu-header .navbar .navbar-brand img{
-        margin: 0px 20px;
+        margin: 0px auto;
     }
     .menu-header .navbar .navbar-brand{
         text-align: center;
