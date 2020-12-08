@@ -618,6 +618,7 @@ body{
     display: none;
     font-size: 24px;
     width: 30px;
+    text-align: right;
 }
 
 .main-menu{
@@ -896,11 +897,7 @@ body{
     }
     .call-iphone a{
         font-size: 20px;
-        padding: 25px 20px;
         color: #a9a9a9;
-        position: absolute;
-        right: 5px;
-        top: 0px;
     }
     #navbarSupportedContent{
         display: block !important;
@@ -1060,7 +1057,6 @@ body{
     }
     .call-iphone a{
         font-size: 20px;
-        padding: 2rem 0.75rem 0.25rem 0.75rem;
         color: #a9a9a9;
     }
     .menu-header .navbar .navbar-brand img{
