@@ -211,13 +211,13 @@ body{
     text-align: center;
 }
 
-.pills-network li{
-  /*  margin-bottom: 20px;*/
+/*.pills-network li{
+    margin-bottom: 20px;
 }
 
 .pills-network li a{
-   /* border: 1px solid #00a3c8 !important;*/
-}
+    border: 1px solid #00a3c8 !important;
+}*/
 .btn-net{
     color: #fff;
     background-color: #00a3c8;
