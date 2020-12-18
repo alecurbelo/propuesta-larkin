@@ -21,9 +21,13 @@ $(function(){
             $('.welcome-read-more-text').slideUp(2000); 
             $('#read-more').show();   
 
-    });
-    
-
+    });  
 });   
-})(jQuery);
 
+$(function(){
+    $('.services').click(function(){
+        $('html, body').animate({ scrollTop: $("#larkin-services").offset().top}, 800);
+    }); 
+});
+
+})(jQuery);
