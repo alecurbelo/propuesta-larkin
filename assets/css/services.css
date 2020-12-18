@@ -1,0 +1,42 @@
+#banner-services{
+    background-image: url("../images/banner-services.jpg");
+    background-position: center center;
+    color: #004861;
+}
+#banner-services h4{
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 0;
+    font-size: 1.75rem;
+
+}
+.title-banner-service{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#larkin-services{
+    padding: 100px 0px 100px 0px;
+}
+.pills-services a{
+    border-radius: 0;
+    padding: 17px 20px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    display: block;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.pills-services a:hover{
+    background-color: transparent;
+    color:rgb(136, 135, 135);
+    border: none;
+
+}
+.pills-services a.active{
+    background-color: #f8f8f8!important;
+    color: #333!important;
+    border: none!important;
+    border-right: 2px solid #00a3c8!important;
+}
