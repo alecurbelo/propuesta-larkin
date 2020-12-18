@@ -40,3 +40,12 @@
     border: none!important;
     border-right: 2px solid #00a3c8!important;
 }
+.services-left h3{
+    padding-left: 0;
+}
+.services-left p{
+    padding-left: 0;
+}
+.btn-services{
+    margin-left:0;
+}
