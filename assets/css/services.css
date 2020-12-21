@@ -40,12 +40,24 @@
     border: none!important;
     border-right: 2px solid #00a3c8!important;
 }
-.services-left h3{
+.services-left h3, .services-left p{
     padding-left: 0;
 }
-.services-left p{
-    padding-left: 0;
-}
+
 .btn-services{
     margin-left:0;
 }
+.services-centers{
+    color: #004861;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+    max-width: 100%;
+
+}
+.pills-services li{
+    width: 100%;
+}
+

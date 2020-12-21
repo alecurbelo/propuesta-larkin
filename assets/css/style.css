@@ -280,6 +280,37 @@ body {
     background: rgba(0,0,0,.7);
     z-index: 8888;
 }
+/*Network & Services*/
+.btn-net{
+    color: #fff;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-size: 0.915rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    padding: 14px 30px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.tab-pane h3{
+    color: #004861;
+    margin-bottom: 30px;
+    font-size: 2.625rem;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.tab-pane p{
+    margin-bottom: 30px;
+    font-size: 1rem;
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 @media (max-width: 991px){
     .close-menu-wrapper{
