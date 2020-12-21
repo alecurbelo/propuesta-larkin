@@ -202,6 +202,7 @@ body {
     border-radius: 0px;
     -webkit-border-radius: 4px;
 }
+
 .drop-services{
     background-color: transparent;
     border: none;
@@ -254,102 +255,7 @@ body {
     font-size: 14px;
     float: right;
 }
-#banner{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 100px;
-    padding-bottom: 200px;
-}
-.banner-section{
-    background-image: url(../images/banner-back.jpg);
-}
-.img-banner{
-    background-image: url(../images/banner-img.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 45%;
-    left: 55%;
-}
-.banner-section .container{
-    position: relative;
-    z-index: 3;
-}
-.banner-left{
-    color:white;
-    padding-right: 40px;
-    padding-left: 20px;
-}
-.banner-left h5{
-    font-size: 0.85rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-    color: #004861;
-}
-.banner-left h2{
-    font-size: 4.5rem;
-    letter-spacing: -0.5px;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    color: #004861;
-}
-.links-banner a{
-    display: inline-block;
-    margin-bottom: 10px;
-    font-size: 1.25rem;
-    color:#004861;
-    text-shadow: 1px 1px  #c6c9caad;
-}
-.links-banner a:hover{
-    background-color: transparent;
-    color: #004861;
-}
-.links-marketing a{
-    display: inline-block;
-    margin-bottom: 10px;
-    font-size: 1.25rem;
-    color:white;
-    text-shadow: 0.3px 0.3px  #c6c9caad;
-}
-.links-marketing a:hover{
-    background-color: transparent;
-    color: white;
-}
-#banner-marketing{
-    background-image: url("../images/degradado.jpg");
-    background-color: #00a3c8;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-.marketing{
-    color: white;
-    text-shadow: 0.3px 0.3px  #c6c9caad;
-}
-.marketing h2{
-    line-height: 1.25;
-    letter-spacing: 0;
-    margin-bottom: 40px;
-    font-size: 3.25rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-}
-.links-banner p{
-    margin-bottom: 5px;
-}
-.marketing a{
-    font-size: 1rem!important;
-}
+
 .navbar-toggler{
     padding: 0;
     border: none;
@@ -395,7 +301,7 @@ body {
         line-height: 30px;
     }
     .logo-header{
-      padding: 10px;
+        padding: 10px;
     }
     .menu-header .navbar .call-iphone{
         display: block;
@@ -422,26 +328,6 @@ body {
     .header-top{
         display: none;
     }
-    
-    .welcome-text{
-        order: 1;
-    }
-    .welcome-image{
-        order: 2;
-        padding-top: 30px;
-    }
-    .pay-bill-btn{
-        margin-top: 45px;
-    }
-    .clock{
-        width:25px;
-        height: auto;
-        margin: 0px 2px 3px 0px; 
-
-    }
-    .h4-emergency{
-        font-size: 1.2rem;
-    }
     .call-iphone a{
         font-size: 20px;
         color: #a9a9a9;
@@ -461,10 +347,6 @@ body {
     }
     #navbarSupportedContent.show{
         left: 0;
-    }
-    .posts-mvl{
-        margin-bottom: 20px;
-        min-height: 100%;
     }
     #navbarSupportedContent.show ul a{
         margin: 0;
@@ -489,116 +371,9 @@ body {
         padding-left: 30px;
         font-size: 13px;
     }
-    .btn-careers{
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-    .span-car{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .h3-careers{
-        margin-bottom: 20px;
-    }
-    #recent-posts .col-xl-3{
-        margin-bottom: 20px;
-        
-    }
-    .nav-fill .nav-item, .nav-fill > .nav-link {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-
-    }
 }
 
 @media (max-width: 767px){
-    #banner{
-        text-align: center;
-        padding-top: 80px;
-        padding-bottom: 0;
-    }
-    .banner-left h2{
-        font-size: 2.5rem;
-        letter-spacing: 0.5px;
-        margin-bottom: 20px;
-    }
-    .links-banner a{
-        font-size: 1.075rem;
-        padding: 0 5%;
-    }
-    .banner-left h5{
-        font-size: 1rem;
-        margin-bottom: 20px;
-    }
-    .img-banner{
-        background-position: top center;
-        position: relative;
-        left: 0;
-        height: 350px;
-        width: auto!important;
-        margin-top: 60px;
-    }
-    #external-links{
-        margin-top: -80px;
-        padding-bottom: 60px;
-    }
-    .abox-2-holder{
-        padding: 15px 0px 15px 0px;
-    }
-    .external-mvl{
-        padding: 25px 20px 25px 20px;
-    }
-    #banner-marketing{
-        text-align: center;
-        padding-top: 50px;
-        padding-bottom: 0;
-    }
-    .marketing h2{
-        font-size: 2.5rem;
-        letter-spacing: 0.5px;
-        margin-bottom: 30px;
-    }
-    .links-banner{
-        display:inline-block;
-        text-align: left;
-        font-size: 0.80rem!important;
-        padding-bottom: 50px;
-    }
-    .links-banner a{
-        display:inline-block;
-        padding:0px;
-        font-size: 0.80rem!important;
-    }
-    #service{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    #service h5{
-        margin: 15px 0px 10px 0px;
-    }
-    #service p{
-        margin: 0px 0px 15px 0px;
-    }
-    .welcome-title{
-        margin-top: 20px;
-    }
-    #larkin-network{
-        box-sizing: border-box;
-        padding: 60px 15px 60px 15px;
-    }
-    .tab-content h3{
-        margin: 30px 0px 20px 0px;
-        font-size: 2.125rem;
-        padding:0px 10px 0px 0px;
-    }
-    .tab-content p{
-        margin: 0px 0px 0px 0px;
-        font-size: 1.1075rem;
-        padding:0px 10px 0px 0px;
-    }
-    .btn-net{
-        margin:30px 0px 0px 0px;
-    }
     .header-top{
         display: none;
     }
@@ -615,26 +390,6 @@ body {
         display: inherit;
 
     }
-    
+
 }
-
- @media (min-width: 992px) and (max-width: 1199px) {
-    #recent-posts .col-xl-3{
-        margin-bottom: 20px;
-
-        }
- .nav-fill .nav-item, .nav-fill > .nav-link {
-     -ms-flex: 0 0 50%;
-     flex: 0 0 50%;
-    }
-    .welcome-text{
-        order: 1;
-    }
-    .welcome-image{
-        order: 2;
-        padding-top: 30px;
-        text-align: center;
-    }
-
- }
 
