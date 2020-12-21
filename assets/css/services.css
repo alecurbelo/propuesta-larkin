@@ -40,6 +40,14 @@
     border: none!important;
     border-right: 2px solid #00a3c8!important;
 }
+.pills-services span{
+    padding: 10px 20px;
+    margin-right: 0;
+    color:  #00a3c8;
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+}
 .services-left h3, .services-left p{
     padding-left: 0;
 }
@@ -52,7 +60,3 @@
     width: 100%;
 }
 
-.pills-services .nav-link-title{
-    font-size: 30px;
-    font-weight: 500;
-}
