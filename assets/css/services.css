@@ -49,3 +49,12 @@
 .btn-services{
     margin-left:0;
 }
+
+.pills-services .nav-item{
+    width: 100%;
+}
+
+.pills-services .nav-link-title{
+    font-size: 30px;
+    font-weight: 500;
+}
