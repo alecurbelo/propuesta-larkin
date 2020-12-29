@@ -1,0 +1,95 @@
+#inoutpatients{
+    background-image: url(../images/banner-back.jpg);
+    position: relative;
+    z-index: 1;
+    background-color: #f8f9fb;
+    padding: 40px 0 40px 0;
+    margin: 100px 0 100px 0;
+
+}
+#inoutpatients h3{
+    line-height: 1;
+    margin-bottom: 50px;
+    font-size: 2.625rem;
+    color: #004861;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    text-align: center;
+}
+.in-content, .inpatient-box{
+    display:block;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0 8px 40px;
+    padding: 30px 0px 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    width: 100%;
+    
+    
+}
+.inpatient-box {
+    padding-bottom: 50px !important;
+
+}
+.in-content ul{
+    list-style: none;
+    padding: 0px 0px 0px 83px;
+    width: 100%;
+    text-align: left;
+}
+.in-content li, .unit-ul li, .inpatient-box li{
+    margin-top: 7px;
+    font-size: 0.95rem;
+
+}
+.unit-ul{
+    padding: 0px 0px 0px 80px !important;
+}
+
+.in-content h5, .inpatient-box h5{
+    margin-bottom: 20px;
+    color: #004861;
+    text-align: center;
+    font-size: 1.05rem;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.inpatient-box h5{
+    margin-bottom: 40px !important;
+
+}
+.inpatient-box ul{
+    list-style: none;
+    padding: 0px;
+    border-right: 1px dashed #004861;
+}
+.first {
+    padding-left: 20px !important;
+}
+.last {
+    padding-right: 20px !important;
+    border-right: none !important;
+}
+@media (max-width: 767px){
+    .inpatient-box ul{
+        text-align: center;
+        border-right: none;
+    }
+}
+@media (max-width: 991px){
+    .second{
+        border-right: none !important;
+    }
+    .third{
+        padding-left: 20px !important;
+    }
+}
