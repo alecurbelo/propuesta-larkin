@@ -5,7 +5,19 @@
     background-color: #f8f9fb;
     padding: 40px 0 40px 0;
     margin: 100px 0 100px 0;
+    background-attachment: fixed !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
+}
+.palm-springs{
+    background-image: url(../images/banner-2.jpg) !important;
+
+}
+.palm-springs h3{
+    color: white !important;
 }
 #inoutpatients h3{
     line-height: 1;
@@ -25,7 +37,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border: 1px solid #ddd;
-    margin: 0 8px 40px;
+    margin: 0px 0px 40px;
     padding: 30px 0px 30px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -83,6 +95,8 @@
     .inpatient-box ul{
         text-align: center;
         border-right: none;
+        
+
     }
 }
 @media (max-width: 991px){

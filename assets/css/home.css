@@ -436,34 +436,36 @@
 
 
 #banner{
-    width: 100%;
+   /* width: 100%;
     overflow: hidden;
     position: relative;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 200px;*/
+    background-image: url(../images/banner-back.jpg);
+    padding-top: 30px;
 }
 .banner-section{
-    background-image: url(../images/banner-back.jpg);
-}
-.img-banner{
-    background-image: url(../images/banner-img.png);
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 45%;
-    left: 55%;
 }
-.banner-section .container{
+/*.banner-section .container{
     position: relative;
     z-index: 3;
+}*/
+.img-banner{
+    margin-left: -20px;
+    text-align:center;
+}
+.img-banner img{
+    position: relative;
+    max-width: none;
+    display: inline-block;
 }
 .banner-left{
-    color:white;
-    padding-right: 40px;
-    padding-left: 20px;
+    margin-top: -60px;
+    margin-bottom: 40px;
 }
 .banner-left h5{
     font-size: 0.85rem;
