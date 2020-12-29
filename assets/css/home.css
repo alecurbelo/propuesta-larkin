@@ -436,11 +436,6 @@
 
 
 #banner{
-   /* width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: 100px;
-    padding-bottom: 200px;*/
     background-image: url(../images/banner-back.jpg);
     padding-top: 30px;
 }
@@ -450,10 +445,10 @@
     background-position: center center;
     background-size: cover;
 }
-/*.banner-section .container{
+.banner-section .container{
     position: relative;
     z-index: 3;
-}*/
+}
 .img-banner{
     margin-left: -20px;
     text-align:center;
