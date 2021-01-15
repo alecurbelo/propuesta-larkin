@@ -114,3 +114,12 @@
 .accordion{
     padding: 50px 0px;
 }
+.title-big-accordion{
+    font-size: 1.5rem;
+    color: #00a3c8;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+}
