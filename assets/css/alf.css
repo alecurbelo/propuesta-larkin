@@ -92,24 +92,24 @@
     transition: all 400ms ease-in-out;
 }
 #accordion-panel [data-toggle="collapse"]:after{
-    font-family: "Font Awesome 5 Free";
-    font-size: 13px;
+    font-family: "FontAwesome";
+    font-size: 16px;
     top: 25px;
     right: 5px;
     color: #00a3c8;
     font-weight: 900;
-    content: "\f068";
+    content: "\f106";
     position: absolute;
 }
 #accordion-panel [data-toggle="collapse"].collapsed:after,.collapsed:after{
-    font-family: "Font Awesome 5 Free";
-    font-size: 13px;
+    font-family: "FontAwesome";
+    font-size: 16px;
     top: 25px;
     right: 5px;
     color: #00a3c8;
     font-weight: 900;
-    content: "\f067";
     position: absolute;
+    content: "\f107";
 }
 .accordion{
     padding: 50px 0px;
@@ -121,5 +121,4 @@
     letter-spacing: -0.25px;
     margin-top: 40px;
     margin-bottom: 35px;
-}
 }
