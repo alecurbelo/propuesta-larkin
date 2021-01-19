@@ -5,7 +5,7 @@ var $firstButton = $(".first"),
   $more = $(".more"),
   $yourname = $(".yourname"),
   $reset = $(".reset"),
-  $ctr = $(".container");
+  $ctr = $(".form-container");
 
 $firstButton.on("click", function(e){
   $(this).text("Saving...").delay(900).queue(function(){
@@ -27,4 +27,4 @@ $secondButton.on("click", function(e){
 });
 
 // copy
-/*balapaCop("Step by Step Form", "#999");*/
+//balapaCop("Step by Step Form", "#999");
