@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 #form-appointment{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 * {
@@ -27,6 +27,7 @@ button:active,
 
 .form-container {
   width: 400px;
+  height: auto;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -222,12 +223,12 @@ button:active,
   position: relative;
 }
 
-.slider-form h3 .balapa {
+/*.slider-form h3 .balapa {
   font-family: 'Pacifico', sans-serif;
   display: inline-block;
   color: #5892fc;
   text-decoration: none
-}
+}*/
 
 .slider-form [type="text"] {
   width: 100%;
