@@ -27,4 +27,4 @@ $secondButton.on("click", function(e){
 });
 
 // copy
-balapaCop("Step by Step Form", "#999");
+/*balapaCop("Step by Step Form", "#999");*/
