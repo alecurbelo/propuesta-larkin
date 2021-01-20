@@ -164,7 +164,7 @@ button:active {
 
 .slider {
   overflow: hidden;
-  width: 1200px;
+  width: 1600px;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
   -webkit-transform: translate(0px) scale(1);
