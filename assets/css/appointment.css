@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 #form-appointment{
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 
 * {
@@ -11,7 +11,8 @@
 }
 
 input:focus,
-button:focus {
+button:focus,
+select:focus {
   outline: none;
 }
 
@@ -24,7 +25,7 @@ button:active {
 }
 
 .form-container {
-  width: 400px;
+  width: 600px;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -33,7 +34,7 @@ button:active {
 }
 
 .steps {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   position: relative;
   height: 25px;
 }
@@ -47,7 +48,7 @@ button:active {
   height: 25px;
   padding: 0 5px;;
   display: inline-block;
-  width: 80px;
+  width: 200px;
   text-align: center;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
@@ -164,7 +165,7 @@ button:active {
 
 .slider {
   overflow: hidden;
-  width: 1600px;
+  width: 2400px;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
   -webkit-transform: translate(0px) scale(1);
@@ -214,7 +215,7 @@ button:active {
 
 .slider-form {
   float: left;
-  width: 400px;
+  width: 600px;
   text-align: center;
 }
 
@@ -241,19 +242,30 @@ button:active {
   position: relative;
 }
 
-.slider-form [type="text"] {
+.drop-interested {
+  background-color: #fff;
+    border: 2px solid #ddd;
+    color: #777;
+    height: 54px;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 4px 15px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.message {
+  padding: 20px 15px;
+  min-height: 160px;
   width: 100%;
-  box-sizing: border-box;
-  padding: 15px 20px;
-  background: #fafafa;
-  border: 1px solid transparent;
-  color: #777;
-  border-radius: 50px;
-  margin-bottom: 50px;
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
-  position: relative;
-  z-index: 99;
 }
 
 .slider-form [type="text"]:focus {
@@ -274,6 +286,7 @@ button:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   position: relative;
+  margin-top: 15px;
 }
 
 /*  first */
@@ -288,13 +301,13 @@ button:active {
 }
 
 .form-container.first .slider {
-  -webkit-transform: translate(-400px);
-  -ms-transform: translate(-400px);
-  transform: translate(-400px);
+  -webkit-transform: translate(-600px);
+  -ms-transform: translate(-600px);
+  transform: translate(-600px);
 }
 
 .form-container.first .step-two {
-  clip: rect(0, 100px, 25px, 0px);
+  clip: rect(0, 200px, 25px, 0px);
 }
 
 /*  second*/
@@ -309,13 +322,14 @@ button:active {
 }
 
 .form-container.center .slider {
-  -webkit-transform: translate(-800px);
-  -ms-transform: translate(-800px);
-  transform: translate(-800px);
+  -webkit-transform: translate(-1200px);
+  -ms-transform: translate(-1200px);
+  transform: translate(-1200px);
 }
 
+.form-container.center .step-two,
 .form-container.center .step-three {
-  clip: rect(0, 100px, 25px, 0px);
+  clip: rect(0, 200px, 25px, 0px);
 }
 
 /*  full */
@@ -332,11 +346,11 @@ button:active {
 .form-container.full .slider {
   -webkit-transform: translate(-1200px);
   -ms-transform: translate(-1200px);
-  transform: translate(-1200px);
+  transform: translate(-1800px);
 }
 
 .form-container.full .step-two,
 .form-container.full .step-three,
 .form-container.full .step-fourth {
-  clip: rect(0, 100px, 25px, 0px);
+  clip: rect(0, 200px, 25px, 0px);
 }

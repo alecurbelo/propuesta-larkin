@@ -182,26 +182,70 @@
                     <div class="slider-ctr">
                       <div class="slider">
                         <form class="slider-form slider-one">
-                          <h2>Step Form Design Experience</h2>
-                          <label class="input">
-                            <input type="text" class="name" placeholder="What's your name?">
-                          </label>
+                          <label for="form-interested">
+                            <select class="drop-interested" name="interested" id="form-interested" required>
+                                <option value="0">What are you interested in?</option>
+                                <option value="1">Gamma Knife/Neuroscience</option>
+                                <option value="2">Surgical Orthopedics</option>
+                            </select>
+                          </label></br>
                           <button class="first next">Next</button>
                         </form>
                     
                         <form class="slider-form slider-two">
-                          <h2>Are you happy with our service 1?</h2>
-                          
+                          <label for="form-patient">
+                            <select class="drop-interested patient" name="areyou" id="form-patient" required>
+                                <option value="0">Are you the patient?</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                          </label></br>
+                          <input type="text" name="name" class="drop-interested" placeholder="Patient Name">
+                          <input type="text" name="lastname" class="drop-interested" placeholder="Patient Last Name"></br>
+                          <input type="text" name="address"  class="drop-interested" placeholder="Street Address">
+                          <input type="text" name="address-1" class="drop-interested" placeholder="Street Address Line 2">
+                          <input type="text" name="city" class="drop-interested" placeholder="City">
+                          <input type="text" name="state-province" class="drop-interested" placeholder="State / Province">
+                          <input type="text" name="zip-code" class="drop-interested" placeholder="Postal / Zip Code">
+                          <label for="sel-country">
+                          <select name="country" id="sel-country" class="drop-interested">
+                              <option value="0">Country</option>
+                          </select>
+                        </label></br>  
+                        <input type="text" class="drop-interested" placeholder="Phone Number If International: Country Code - City Code - Number">
+                        <label for="sel-phone">
+                        <select name="phone-type" id="sel-phone" class="drop-interested">
+                            <option value="0">Phone Type</option>
+                            <option value="1">Home</option>
+                        </select>
+                      </label></br>
+                      <input type="text" name="email" class="drop-interested" placeholder="e-mail">
+                      <input type="text" name="conf-email" class="drop-interested" placeholder="Confirm e-mail"></br>                
                           <button class="second next">Next</button>
                         </form>
                         <form class="slider-form slider-three">
-                            <h2>Are you happy with our service 2?</h2>
-                            
+                            <h2>Please provide us with your insurance information so that we can begin verifying coverage and get an appointment scheduled faster.</h2>
+                            <label for="sel-insurance">
+                                <select name="insurance" id="sel-insurance" class="drop-interested">
+                                    <option value="0">Does the patient have health insurance?</option>
+                                    <option value="1">Yes</option>
+                                    <option value="1">No</option>
+                                    <option value="1">Patient will self pay</option>
+                                </select>
+                              </label>
+                              <label for="sel-additionl-in">
+                                <select name="additional-insurance" id="sel-additionl-in" class="drop-interested">
+                                    <option value="0">Does the patient have additional health insurance?</option>
+                                    <option value="1">Yes</option>
+                                    <option value="1">No</option>
+                                    <option value="1">Patient will self pay</option>
+                                </select>
+                              </label></br>
                             <button class="third next">Next</button>
                           </form>
 
                           <form class="slider-form slider-fourth">
-                            <h2>Are you happy with our service 3?</h2>
+                            <textarea class="drop-interested message" name="message" rows="6" placeholder="Please provide additional details or questions that you would like us to know before we schedule your appointment."></textarea></br>
                             
                             <button class="fourth next">Next</button>
                           </form>
