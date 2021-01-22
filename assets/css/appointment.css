@@ -1,9 +1,29 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 #form-appointment{
-  padding-top: 400px;
+  padding-top: 350px;
   padding-bottom: 400px;
+}
+
+#appointment{
+  padding-top: 60px;
+}
+
+h3{
+  color: #004861;
+  margin-bottom: 30px;
+  font-size: 2.625rem;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  text-align: left;
+  
+}
+
+h5{
+  color: #00a3c8;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: left;
 }
 
 * {
@@ -12,9 +32,16 @@
 
 input:focus,
 button:focus,
-select:focus {
+select:focus,
+textarea:focus {
   outline: none;
 }
+
+input::placeholder,
+textarea::placeholder{
+color: #999;
+opacity: 1;
+} 
 
 button:hover{
   opacity: .8;
@@ -220,10 +247,10 @@ button:active {
 }
 
 .slider-form h2 {
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   color: #999;
   position: relative;
 }
@@ -244,28 +271,43 @@ button:active {
 
 .drop-interested {
   background-color: #fff;
-    border: 2px solid #ddd;
-    color: #777;
-    height: 54px;
-    font-size: 16px;
-    line-height: 1;
-    font-weight: 400;
-    padding: 4px 15px;
-    margin-bottom: 20px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    box-shadow: none;
-    -webkit-transition: all 400ms ease-in-out;
-    -moz-transition: all 400ms ease-in-out;
-    -o-transition: all 400ms ease-in-out;
-    -ms-transition: all 400ms ease-in-out;
-    transition: all 400ms ease-in-out;
+  border: 2px solid #ddd;
+  color: #999;
+  height: 45px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  padding: 4px 15px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: none;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.country{
+  padding-right: 116px;
+  padding-left: 20px;
+}
+.phone-type{
+  padding-right: 90px;
+  padding-left: 20px;
+
+}
+.insurance{
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .message {
   padding: 20px 15px;
   min-height: 160px;
   width: 100%;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 .slider-form [type="text"]:focus {

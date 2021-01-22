@@ -134,8 +134,8 @@
 
 <section id="appointment">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
                 <h3>Request an Appointment</h3>
                 <h5>What to Expect</h5>
                 <ul>
@@ -208,13 +208,13 @@
                           <input type="text" name="state-province" class="drop-interested" placeholder="State / Province">
                           <input type="text" name="zip-code" class="drop-interested" placeholder="Postal / Zip Code">
                           <label for="sel-country">
-                          <select name="country" id="sel-country" class="drop-interested">
+                          <select name="country" id="sel-country" class="drop-interested country">
                               <option value="0">Country</option>
                           </select>
                         </label></br>  
-                        <input type="text" class="drop-interested" placeholder="Phone Number If International: Country Code - City Code - Number">
+                        <input type="text" class="drop-interested" placeholder="Phone Number" data-toggle="tooltip" title="If International: Country Code - City Code - Number">
                         <label for="sel-phone">
-                        <select name="phone-type" id="sel-phone" class="drop-interested">
+                        <select name="phone-type" id="sel-phone" class="drop-interested phone-type">
                             <option value="0">Phone Type</option>
                             <option value="1">Home</option>
                         </select>
@@ -224,9 +224,9 @@
                           <button class="second next">Next</button>
                         </form>
                         <form class="slider-form slider-three">
-                            <h2>Please provide us with your insurance information so that we can begin verifying coverage and get an appointment scheduled faster.</h2>
+                            <h2>Please provide us with your insurance information so that we can begin verifying coverage and get an appointment scheduled faster</h2>
                             <label for="sel-insurance">
-                                <select name="insurance" id="sel-insurance" class="drop-interested">
+                                <select name="insurance" id="sel-insurance" class="drop-interested insurance">
                                     <option value="0">Does the patient have health insurance?</option>
                                     <option value="1">Yes</option>
                                     <option value="1">No</option>

@@ -11,6 +11,7 @@ var $firstButton = $(".first"),
 $firstButton.on("click", function(e){
   $(this).text("Saving...").delay(900).queue(function(){
     $ctr.addClass("first slider-two-active").removeClass("slider-one-active");
+    $("html, body").animate({ scrollTop: $("#form-appointment").offset().top }, 1000);
   });
   e.preventDefault();
 });
@@ -18,11 +19,7 @@ $firstButton.on("click", function(e){
 $secondButton.on("click", function(e){
   $(this).text("Saving...").delay(900).queue(function(){
     $ctr.addClass("center slider-three-active").removeClass("first slider-two-active");
-    $name = $name.val();
-    if($name == "") {
-      $yourname.html("Anonymous!");
-    }
-    else { $yourname.html($name+"!"); }
+    $("html, body").animate({ scrollTop: $("#form-appointment").offset().top }, 1000);
   });
   e.preventDefault();
 });
@@ -30,6 +27,7 @@ $secondButton.on("click", function(e){
 $thirdButton.on("click", function(e){
     $(this).text("Saving...").delay(900).queue(function(){
       $ctr.addClass("full slider-fourth-active").removeClass("center slider-three-active");
+      $("html, body").animate({ scrollTop: $("#form-appointment").offset().top }, 1000);
     });
     e.preventDefault();
   });

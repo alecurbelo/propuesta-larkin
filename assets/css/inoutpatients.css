@@ -84,10 +84,10 @@
     padding: 0px;
     border-right: 1px dashed #004861;
 }
-.first {
+.first ul {
     padding-left: 20px !important;
 }
-.last {
+.last ul {
     padding-right: 20px !important;
     border-right: none !important;
 }
